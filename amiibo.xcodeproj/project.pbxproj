@@ -11,6 +11,14 @@
 		1BF5A2EA295F358200C7F5A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF5A2E9295F358200C7F5A8 /* ContentView.swift */; };
 		1BF5A2EC295F358400C7F5A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF5A2EB295F358400C7F5A8 /* Assets.xcassets */; };
 		1BF5A2EF295F358400C7F5A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF5A2EE295F358400C7F5A8 /* Preview Assets.xcassets */; };
+		1BF5A2F7295F3F4800C7F5A8 /* amiibo.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BF5A2F6295F3F4800C7F5A8 /* amiibo.json */; };
+		1BF5A2FA295F42F300C7F5A8 /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF5A2F8295F42F300C7F5A8 /* Dados.swift */; };
+		1BF5A2FB295F42F300C7F5A8 /* Amiibo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF5A2F9295F42F300C7F5A8 /* Amiibo.swift */; };
+		1BF5A2FF295F5D9B00C7F5A8 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF5A2FE295F5D9B00C7F5A8 /* DetailView.swift */; };
+		1BF5A301295F5DC300C7F5A8 /* LocationMapDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF5A300295F5DC300C7F5A8 /* LocationMapDialogView.swift */; };
+		1BF5A303295F5FCD00C7F5A8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF5A302295F5FCD00C7F5A8 /* MapView.swift */; };
+		1BF5A307295F61A900C7F5A8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF5A306295F61A900C7F5A8 /* HomeView.swift */; };
+		1BF5A30B295FA7C500C7F5A8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1BF5A30A295FA7C500C7F5A8 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,15 @@
 		1BF5A2E9295F358200C7F5A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1BF5A2EB295F358400C7F5A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BF5A2EE295F358400C7F5A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1BF5A2F6295F3F4800C7F5A8 /* amiibo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amiibo.json; sourceTree = "<group>"; };
+		1BF5A2F8295F42F300C7F5A8 /* Dados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dados.swift; sourceTree = "<group>"; };
+		1BF5A2F9295F42F300C7F5A8 /* Amiibo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Amiibo.swift; sourceTree = "<group>"; };
+		1BF5A2FE295F5D9B00C7F5A8 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		1BF5A300295F5DC300C7F5A8 /* LocationMapDialogView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationMapDialogView.swift; sourceTree = "<group>"; };
+		1BF5A302295F5FCD00C7F5A8 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		1BF5A306295F61A900C7F5A8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1BF5A308295FA6D400C7F5A8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1BF5A30A295FA7C500C7F5A8 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +52,8 @@
 		1BF5A2DB295F358200C7F5A8 = {
 			isa = PBXGroup;
 			children = (
+				1BF5A308295FA6D400C7F5A8 /* README.md */,
+				1BF5A30A295FA7C500C7F5A8 /* .gitignore */,
 				1BF5A2E6295F358200C7F5A8 /* amiibo */,
 				1BF5A2E5295F358200C7F5A8 /* Products */,
 			);
@@ -51,7 +70,9 @@
 		1BF5A2E6295F358200C7F5A8 /* amiibo */ = {
 			isa = PBXGroup;
 			children = (
-				1BF5A2E7295F358200C7F5A8 /* amiiboApp.swift */,
+				1BF5A305295F616D00C7F5A8 /* application */,
+				1BF5A304295F615F00C7F5A8 /* ui */,
+				1BF5A2F5295F3E7400C7F5A8 /* data */,
 				1BF5A2E9295F358200C7F5A8 /* ContentView.swift */,
 				1BF5A2EB295F358400C7F5A8 /* Assets.xcassets */,
 				1BF5A2ED295F358400C7F5A8 /* Preview Content */,
@@ -65,6 +86,35 @@
 				1BF5A2EE295F358400C7F5A8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1BF5A2F5295F3E7400C7F5A8 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				1BF5A2F8295F42F300C7F5A8 /* Dados.swift */,
+				1BF5A2F9295F42F300C7F5A8 /* Amiibo.swift */,
+				1BF5A2F6295F3F4800C7F5A8 /* amiibo.json */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		1BF5A304295F615F00C7F5A8 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				1BF5A302295F5FCD00C7F5A8 /* MapView.swift */,
+				1BF5A300295F5DC300C7F5A8 /* LocationMapDialogView.swift */,
+				1BF5A2FE295F5D9B00C7F5A8 /* DetailView.swift */,
+				1BF5A306295F61A900C7F5A8 /* HomeView.swift */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		1BF5A305295F616D00C7F5A8 /* application */ = {
+			isa = PBXGroup;
+			children = (
+				1BF5A2E7295F358200C7F5A8 /* amiiboApp.swift */,
+			);
+			path = application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +175,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BF5A30B295FA7C500C7F5A8 /* .gitignore in Resources */,
+				1BF5A2F7295F3F4800C7F5A8 /* amiibo.json in Resources */,
 				1BF5A2EF295F358400C7F5A8 /* Preview Assets.xcassets in Resources */,
 				1BF5A2EC295F358400C7F5A8 /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +189,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BF5A303295F5FCD00C7F5A8 /* MapView.swift in Sources */,
+				1BF5A2FB295F42F300C7F5A8 /* Amiibo.swift in Sources */,
 				1BF5A2EA295F358200C7F5A8 /* ContentView.swift in Sources */,
+				1BF5A2FA295F42F300C7F5A8 /* Dados.swift in Sources */,
+				1BF5A301295F5DC300C7F5A8 /* LocationMapDialogView.swift in Sources */,
+				1BF5A307295F61A900C7F5A8 /* HomeView.swift in Sources */,
+				1BF5A2FF295F5D9B00C7F5A8 /* DetailView.swift in Sources */,
 				1BF5A2E8295F358200C7F5A8 /* amiiboApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
